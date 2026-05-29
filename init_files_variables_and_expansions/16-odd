@@ -1,2 +1,2 @@
 #!/bin/bash
-while IFS= read -r line; do echo "$line"; IFS= read -r skip; done
+while read line; do echo "$line"; read line; done
